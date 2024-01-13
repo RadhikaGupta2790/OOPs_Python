@@ -1,12 +1,13 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
 class Dog:
-    'dog class'
-    species = "Canis familiaris"
+    'dog class' #<- comment in class to define class can be writen inside inverted commas
+    #class attributes
+    species = "Canis familiaris" 
     listzt = ['j','h']
+    
     #this is a constructor and a dunder method
     #dunder methood starts and ends with __
     def __init__(self, name, age):
+        #instance attributes
         self.name = name
         self.age = age
     
@@ -25,7 +26,6 @@ class Cat(Dog):
         self.listzt.remove('j')
         self.mmm = "pet " + Cat.animal 
         
-     
     #this is a dunder method 
     #when defined  instead of object location you get what you have defined here.
     def __str__(self):
