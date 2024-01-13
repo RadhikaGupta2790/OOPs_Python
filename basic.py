@@ -1,3 +1,6 @@
+'''
+reference: https://realpython.com/python3-object-oriented-programming/#how-do-you-define-a-class-in-python
+'''
 class Dog:
     'dog class' #<- comment in class to define class can be writen inside inverted commas
     #class attributes
